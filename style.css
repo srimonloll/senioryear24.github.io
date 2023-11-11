@@ -1,0 +1,129 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("ribbon.jpeg");
+  background-size: 100%;
+  background-repeat: repeat;
+  font-family: ;
+}
+
+.name{
+  text-align: center;
+  color:#f4acb7;
+  font-family:chewy;
+}
+
+.pic{
+  width:300px;
+  height:400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border-style: double;
+  border-color:#e2b1b9;
+  border-width:10px;
+}
+
+table {
+  margin: 0 auto;
+  align-content: left;
+}
+
+table, td {
+  padding:12px;
+  border:2px solid #000000;
+  border-collapse: collapse;
+  background-color: #FFA5AB;
+  color:white;
+}
+table, th {
+  padding:12px;
+  border:2px solid:#000000;
+  border-collapse: collapse;
+  background-color: #450920;
+  color:#FFFFFF;
+}
+
+td:hover{
+background-color:#450920;
+color:#FFA5AB;
+}
+
+
+
+.resume{
+  text-align:center;
+  font-family:rouge script;
+}
+
+h3{
+  font-family:chewy;
+  color:#FFA5AB;
+}
+
+li:hover{
+background-color: #000000;
+color: #fff2d5;
+}
+
+li{
+  background-color:#fff2d5;
+  color:#000000;
+}
+
+p:hover{
+background-color: #000000;
+color: #fff2d5;
+}
+
+p{
+  background-color:#fff2d5;
+  color:#000000;
+}
+
+a:link {
+  color: #fff2d5;
+}
+
+a:visited {
+  color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #f7a6cf;
+}
+
+/* selected link */
+a:active {
+  color: #ffffff;
+}
+
+div.gallery {
+  margin: 10px;
+  border: 10px solid #f4acb7;
+  float: left;
+  width: 300px;
+  height:100px;
+}
+
+div.gallery:hover {
+  border: 10px solid #450920;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 300px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: chewy;
+  color:#e2b1b9;
+}
+
